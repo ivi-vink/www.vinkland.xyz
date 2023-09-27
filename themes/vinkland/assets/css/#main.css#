@@ -1,0 +1,28 @@
+:root {
+    --bg: #fafafa;
+    --fg: #2f343f;
+    --hl: #4084d6;
+    --hl2: #ed4737;
+}
+
+body {
+    color: var(--fg);
+    
+    font-family: C059;
+    margin: 0 auto;
+    max-width: 800px;
+    flex-direction: column;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
