@@ -1,8 +1,0 @@
-baseURL = 'https://www.vinkland.xyz/'
-languageCode = 'en-us'
-title = 'vinkland.xyz'
-
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"

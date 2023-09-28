@@ -16,10 +16,16 @@
           inherit system;
         };
     in {
+      inherit pkgs;
+
       devShells.default = pkgs.mkShell {
         name = "www.vinkland.xyz";
         buildInputs = [
           pkgs.hugo
+          pkgs.go_1_21
+          pkgs.gotools
+          pkgs.gopls
+          pkgs.sqlite
         ];
       };
     });
